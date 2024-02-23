@@ -4,9 +4,13 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Aplicação</title>
+        <title>Formulário</title>
     </head>
     <body>
-        <h1>Olá Mundo!!!</h1>
+        <form action="bemvindo.jsp" method="post"> 
+            <label>Nome:</label>
+            <input type="text" name="nome" />
+            <button type="submit">Enviar</button>
+        </form>
     </body>
 </html>
